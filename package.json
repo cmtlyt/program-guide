@@ -1,0 +1,20 @@
+{
+  "name": "program-guide",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "island dev edit-docs",
+    "build": "island build edit-docs",
+    "preview": "island start edit-docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "islandjs": "^0.7.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5"
+  }
+}
