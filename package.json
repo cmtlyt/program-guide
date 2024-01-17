@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "island dev edit-docs",
-    "build": "island build edit-docs",
-    "preview": "island start edit-docs"
+    "dev": "island dev src",
+    "build": "island build src",
+    "preview": "island start src"
   },
   "keywords": [],
   "author": "",

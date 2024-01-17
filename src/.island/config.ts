@@ -1,11 +1,11 @@
 import { defineConfig } from "islandjs";
-// import { resolve } from "path";
+import { resolve } from "path";
 
 export default defineConfig({
   title: "CL 文档",
   description: "编程知识点整合, 为开发者提供的编程文档",
   icon: "/logo.png",
-  outDir: "testDist",
+  outDir: resolve(__dirname, "../../docs"),
   markdown: {
     lineNumbers: true,
   },
