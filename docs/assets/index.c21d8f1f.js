@@ -1,0 +1,2 @@
+import{jsx as e,jsxs as c}from"react/jsx-runtime";const r=void 0,s=[],i="JavaScript";function a(t){const n=Object.assign({h1:"h1",a:"a"},t.components);return c(n.h1,{id:"javascript",children:[e(n.a,{className:"header-anchor","aria-hidden":"true",href:"#javascript",children:"#"}),"JavaScript"]})}function d(t={}){const{wrapper:n}=t.components||{};return n?e(n,Object.assign({},t,{children:e(a,t)})):a(t)}const h="2024/1/17 16:24:05",m=`# JavaScript
+`;export{m as content,d as default,r as frontmatter,h as lastUpdatedTime,i as title,s as toc};

@@ -5,6 +5,7 @@ export default defineConfig({
   title: "CL 文档",
   description: "编程知识点整合, 为开发者提供的编程文档",
   icon: "/logo.png",
+  base: "program-guide",
   outDir: resolve(__dirname, "../../docs"),
   markdown: {
     lineNumbers: true,
